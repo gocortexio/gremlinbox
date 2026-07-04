@@ -1,0 +1,27 @@
+{
+  "name": "@gremlinbox/simpl-2-0",
+  "version": "2.0.1",
+  "description": "Simple Public Licence 2.0",
+  "main": "index.js",
+  "license": "SimPL-2.0",
+  "author": "GremlinBox Maintainer <simon@sigre.xyz>",
+  "homepage": "https://github.com/gocortexio/gremlinbox",
+  "keywords": [
+    "security",
+    "testing",
+    "licence",
+    "spdx",
+    "supply-chain"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "LICENCE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocortexio/gremlinbox"
+  }
+}

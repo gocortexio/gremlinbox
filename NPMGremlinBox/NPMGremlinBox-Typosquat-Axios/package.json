@@ -1,0 +1,34 @@
+{
+  "name": "axois-http",
+  "version": "2.0.1",
+  "description": "GremlinBox typosquatting test package targeting 'axios'",
+  "main": "index.js",
+  "license": "AGPL-3.0-or-later",
+  "author": "GremlinBox Maintainer <simon@sigre.xyz>",
+  "homepage": "https://github.com/gocortexio/gremlinbox",
+  "keywords": [
+    "security",
+    "testing",
+    "supply-chain",
+    "typosquat",
+    "axios"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "postinstall.js",
+    "LICENCE"
+  ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "dependencies": {
+    "@gremlinbox/base": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocortexio/gremlinbox"
+  }
+}

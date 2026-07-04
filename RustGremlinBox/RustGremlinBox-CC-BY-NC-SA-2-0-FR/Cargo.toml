@@ -1,0 +1,14 @@
+[package]
+name = "gremlinbox-cc-by-nc-sa-2-0-fr"
+version = "2.0.1"
+edition = "2021"
+rust-version = "1.70"
+description = "Creative Commons Attribution Non Commercial Share Alike 2.0 France"
+authors = ["GremlinBox Maintainer <simon@sigre.xyz>"]
+license = "CC-BY-NC-SA-2.0-FR"
+repository = "https://github.com/gocortexio/gremlinbox"
+homepage = "https://github.com/gocortexio/gremlinbox"
+documentation = "https://github.com/gocortexio/gremlinbox"
+keywords = ["security", "testing", "licence", "spdx", "supply-chain"]
+categories = ["development-tools::testing"]
+include = ["src/**/*.rs", "LICENCE", "Cargo.toml"]

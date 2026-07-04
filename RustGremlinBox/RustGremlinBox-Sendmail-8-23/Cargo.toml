@@ -1,0 +1,14 @@
+[package]
+name = "gremlinbox-sendmail-8-23"
+version = "2.0.1"
+edition = "2021"
+rust-version = "1.70"
+description = "Sendmail Licence 8.23"
+authors = ["GremlinBox Maintainer <simon@sigre.xyz>"]
+license = "Sendmail-8.23"
+repository = "https://github.com/gocortexio/gremlinbox"
+homepage = "https://github.com/gocortexio/gremlinbox"
+documentation = "https://github.com/gocortexio/gremlinbox"
+keywords = ["security", "testing", "licence", "spdx", "supply-chain"]
+categories = ["development-tools::testing"]
+include = ["src/**/*.rs", "LICENCE", "Cargo.toml"]

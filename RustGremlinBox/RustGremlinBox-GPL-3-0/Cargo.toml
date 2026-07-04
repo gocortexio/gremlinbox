@@ -1,0 +1,14 @@
+[package]
+name = "gremlinbox-gpl-3-0"
+version = "2.0.1"
+edition = "2021"
+rust-version = "1.70"
+description = "GNU General Public Licence version 3.0"
+authors = ["GremlinBox Maintainer <simon@sigre.xyz>"]
+license = "GPL-3.0"
+repository = "https://github.com/gocortexio/gremlinbox"
+homepage = "https://github.com/gocortexio/gremlinbox"
+documentation = "https://github.com/gocortexio/gremlinbox"
+keywords = ["security", "testing", "licence", "spdx", "supply-chain"]
+categories = ["development-tools::testing"]
+include = ["src/**/*.rs", "LICENCE", "Cargo.toml"]

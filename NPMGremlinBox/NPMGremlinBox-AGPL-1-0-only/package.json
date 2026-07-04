@@ -1,0 +1,27 @@
+{
+  "name": "@gremlinbox/agpl-1-0-only",
+  "version": "2.0.1",
+  "description": "GNU Affero General Public Licence version 1.0 only",
+  "main": "index.js",
+  "license": "AGPL-1.0-only",
+  "author": "GremlinBox Maintainer <simon@sigre.xyz>",
+  "homepage": "https://github.com/gocortexio/gremlinbox",
+  "keywords": [
+    "security",
+    "testing",
+    "licence",
+    "spdx",
+    "supply-chain"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "LICENCE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocortexio/gremlinbox"
+  }
+}

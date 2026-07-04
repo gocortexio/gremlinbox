@@ -1,0 +1,14 @@
+[package]
+name = "gremlinbox-cal-1-0-combined-work-exception"
+version = "2.0.1"
+edition = "2021"
+rust-version = "1.70"
+description = "Cryptographic Autonomy Licence 1.0 with Combined Work Exception"
+authors = ["GremlinBox Maintainer <simon@sigre.xyz>"]
+license = "CAL-1.0-Combined-Work-Exception"
+repository = "https://github.com/gocortexio/gremlinbox"
+homepage = "https://github.com/gocortexio/gremlinbox"
+documentation = "https://github.com/gocortexio/gremlinbox"
+keywords = ["security", "testing", "licence", "spdx", "supply-chain"]
+categories = ["development-tools::testing"]
+include = ["src/**/*.rs", "LICENCE", "Cargo.toml"]

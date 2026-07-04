@@ -1,0 +1,27 @@
+{
+  "name": "@gremlinbox/cern-ohl-s-2-0",
+  "version": "2.0.1",
+  "description": "CERN Open Hardware Licence version 2.0 Strongly Reciprocal",
+  "main": "index.js",
+  "license": "CERN-OHL-S-2.0",
+  "author": "GremlinBox Maintainer <simon@sigre.xyz>",
+  "homepage": "https://github.com/gocortexio/gremlinbox",
+  "keywords": [
+    "security",
+    "testing",
+    "licence",
+    "spdx",
+    "supply-chain"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "LICENCE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocortexio/gremlinbox"
+  }
+}

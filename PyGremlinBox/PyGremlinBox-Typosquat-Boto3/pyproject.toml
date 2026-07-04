@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# SPDX-FileCopyrightText: 2025 PyGremlinBox Maintainer <simon@sigre.xyz>
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b0to3-sdk"
+version = "2.0.1"
+description = "Supply chain security testing - typosquat of boto3 (b0to3-sdk)"
+authors = [{name = "PyGremlinBox Maintainer", email = "simon@sigre.xyz"}]
+license = {text = "AGPL-3.0-or-later"}
+requires-python = ">=3.11"
+dependencies = ["gremlinbox==2.0.1"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Security",
+    "Topic :: Software Development :: Testing"
+]
+keywords = ["security", "testing", "typosquat-simulation", "supply-chain", "tabletop-exercise"]
+
+[project.urls]
+Homepage = "https://github.com/gocortexio/pygremlinbox"
+Repository = "https://github.com/gocortexio/pygremlinbox"
+
+[tool.setuptools.packages.find]
+where = ["src"]

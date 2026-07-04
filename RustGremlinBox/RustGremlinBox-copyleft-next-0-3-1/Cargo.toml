@@ -1,0 +1,14 @@
+[package]
+name = "gremlinbox-copyleft-next-0-3-1"
+version = "2.0.1"
+edition = "2021"
+rust-version = "1.70"
+description = "copyleft-next 0.3.1"
+authors = ["GremlinBox Maintainer <simon@sigre.xyz>"]
+license = "copyleft-next-0.3.1"
+repository = "https://github.com/gocortexio/gremlinbox"
+homepage = "https://github.com/gocortexio/gremlinbox"
+documentation = "https://github.com/gocortexio/gremlinbox"
+keywords = ["security", "testing", "licence", "spdx", "supply-chain"]
+categories = ["development-tools::testing"]
+include = ["src/**/*.rs", "LICENCE", "Cargo.toml"]

@@ -1,0 +1,27 @@
+{
+  "name": "@gremlinbox/eupl-1-1",
+  "version": "2.0.1",
+  "description": "European Union Public Licence version 1.1",
+  "main": "index.js",
+  "license": "EUPL-1.1",
+  "author": "GremlinBox Maintainer <simon@sigre.xyz>",
+  "homepage": "https://github.com/gocortexio/gremlinbox",
+  "keywords": [
+    "security",
+    "testing",
+    "licence",
+    "spdx",
+    "supply-chain"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "LICENCE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocortexio/gremlinbox"
+  }
+}
